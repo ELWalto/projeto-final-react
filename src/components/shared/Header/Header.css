@@ -1,0 +1,33 @@
+.header {
+  align-items: flex-end;
+  background: #107c10;
+  display: flex;
+  justify-content: space-around;
+  min-height: 4em;
+  padding: 1em;
+  width: 100vw;
+  align-content: space-between;
+  flex-direction: row;
+}
+
+.header__logo {
+  width: 10em;
+  border-radius: 0.5em;
+}
+
+.header a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.1s ease-in;
+}
+
+.header a:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 360px) {
+  .header {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,19 @@
+.game-card{
+    width: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+}
+
+.buttons-group{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-evenly;
+}
+

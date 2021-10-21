@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  
+}
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  display: flex;
+}
+
+footer{
+  flex-shrink: 0;
+  padding: 30px;
+  text-align: center;
+  
+}
